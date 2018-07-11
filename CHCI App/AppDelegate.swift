@@ -8,6 +8,15 @@
 
 import UIKit
 
+var loggedIn = false
+var cardYes = true
+var fitnessYes = false
+var bookYes = true
+let date=Date()
+let calendar=Calendar.current
+let currentDay=calendar.component(.day, from: date)
+
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
